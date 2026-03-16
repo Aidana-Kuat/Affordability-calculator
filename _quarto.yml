@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Life Affordability Calculator"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: calculator.qmd
+        text: Calculator
+      - href: about.qmd
+        text: About
+      
+format:
+  html:
+    theme:
+      - lux
+      - brand
+    css: styles.css
+    toc: true
+
+
+

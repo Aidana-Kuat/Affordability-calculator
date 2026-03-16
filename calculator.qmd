@@ -1,0 +1,82 @@
+---
+title: "Explore your budget"
+---
+### Enter Your Information
+
+<div style="max-width:500px">
+
+Salary per year ($)
+
+<input id="salary" type="number" placeholder="60000">
+
+City
+
+<select id="city">
+<option value="1400">Pittsburgh, PA</option>
+<option value="2100">Chicago, IL</option>
+<option value="3200">New York, NY</option>
+<option value="1600">Dallas, TX</option>
+
+
+</select>
+
+Monthly student loan ($)
+
+<input id="loans" type="number" placeholder="300">
+
+Other monthly spending ($)
+
+<input id="spending" type="number" placeholder="800">
+
+<br><br>
+
+<button onclick="calculate()">Calculate</button>
+
+</div>
+
+
+## Results
+
+<div id="results"></div>
+
+<script>
+
+function calculate() {
+
+let salary = document.getElementById("salary").value
+let rent = document.getElementById("city").value
+let loans = document.getElementById("loans").value
+let spending = document.getElementById("spending").value
+
+salary = Number(salary)
+rent = Number(rent) //Every city has its own rent prices
+loans = Number(loans)
+spending = Number(spending)
+
+let monthlyIncome = salary * 0.75 / 12 //75% of your salary after taxes
+let expenses = rent + loans + spending
+let remaining = monthlyIncome - expenses
+
+let status = ""
+
+if (remaining > 1000) {
+status = "Comfortable"
+}
+else if (remaining > 300) {
+status = "Manageable"
+}
+else if (remaining > 0) {
+status = "Tight Budget"
+}
+else {
+status = "Not Affordable"
+}
+
+document.getElementById("results").innerHTML = `
+<h3>Monthly Income After Tax: $${monthlyIncome.toFixed(0)}</h3>
+<h3>Total Expenses: $${expenses}</h3>
+<h2>Money Left: $${remaining.toFixed(0)}</h2>
+<h2>Status: ${status}</h2>
+`
+}
+</script>

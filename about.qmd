@@ -1,0 +1,11 @@
+
+---
+title: "About"
+---
+
+Students choose jobs based on salary, but salary alone doesn’t show real living conditions. Our tool calculates whether your income can actually support your lifestyle in different cities.
+
+
+This website helps you check whether your salary can support your lifestyle in different cities.
+
+Use the calculator to explore your budget.

@@ -1,0 +1,103 @@
+
+
+---
+title: "Affordability calculator"
+---
+
+# Can I Afford This Life? 💸
+
+A simple tool that helps you understand whether your future salary can support your lifestyle in a city.
+
+Many people look at salary but forget about rent, taxes, and everyday expenses. This calculator shows your **real monthly situation**.
+
+---
+
+## Enter Your Information
+
+<div style="max-width:500px">
+
+Salary per year ($)
+
+<input id="salary" type="number" placeholder="60000">
+
+City
+
+<select id="city">
+<option value="1400">Pittsburgh, PA</option>
+<option value="2100">Chicago, IL</option>
+<option value="3200">New York, NY</option>
+<option value="1600">Dallas, </option>
+
+
+</select>
+
+Monthly student loan ($)
+
+<input id="loans" type="number" placeholder="300">
+
+Other monthly spending ($)
+
+<input id="spending" type="number" placeholder="800">
+
+<br>
+
+<button onclick="calculate()">Calculate</button>
+
+<br><br>
+
+</div>
+
+---
+
+## Results
+
+<div id="results"></div>
+
+<script>
+
+function calculate() {
+
+let salary = document.getElementById("salary").value
+let rent = document.getElementById("city").value
+let loans = document.getElementById("loans").value
+let spending = document.getElementById("spending").value
+
+salary = Number(salary)
+rent = Number(rent) //Every city has its own rent prices
+loans = Number(loans)
+spending = Number(spending)
+
+let monthlyIncome = salary * 0.75 / 12 //75% of your salary after taxes
+let expenses = rent + loans + spending
+let remaining = monthlyIncome - expenses
+
+let status = ""
+
+if (remaining > 1000) {
+status = "Comfortable ✅"
+}
+else if (remaining > 300) {
+status = "Manageable 🙂"
+}
+else if (remaining > 0) {
+status = "Tight Budget ⚠️"
+}
+else {
+status = "Not Affordable ❌"
+}
+
+document.getElementById("results").innerHTML = `
+<h3>Monthly Income After Tax: $${monthlyIncome.toFixed(0)}</h3>
+<h3>Total Expenses: $${expenses}</h3>
+<h2>Money Left: $${remaining.toFixed(0)}</h2>
+<h2>Status: ${status}</h2>
+`
+}
+</script>
+
+## What These Results Mean
+
+If your remaining money is high, your lifestyle is affordable in that city.  
+If the number is close to zero or negative, you may need to reduce expenses, increase income, or consider a cheaper city.
+
+This tool is a simplified estimate. Real budgets may include taxes, insurance, transportation, and other living costs.

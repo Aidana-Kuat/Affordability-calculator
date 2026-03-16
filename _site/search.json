@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Affordability calculator",
+    "section": "",
+    "text": "A simple tool that helps you understand whether your future salary can support your lifestyle in a city.\nMany people look at salary but forget about rent, taxes, and everyday expenses. This calculator shows your real monthly situation.\n\n\n\n\nSalary per year ($)\n\nCity\n Pittsburgh, PA Chicago, IL New York, NY Dallas, \n\nMonthly student loan ($)\n\nOther monthly spending ($)\n\n\n\nCalculate\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf your remaining money is high, your lifestyle is affordable in that city.\nIf the number is close to zero or negative, you may need to reduce expenses, increase income, or consider a cheaper city.\nThis tool is a simplified estimate. Real budgets may include taxes, insurance, transportation, and other living costs."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Students choose jobs based on salary, but salary alone doesn’t show real living conditions. Our tool calculates whether your income can actually support your lifestyle in different cities.\nThis website helps you check whether your salary can support your lifestyle in different cities.\nUse the calculator to explore your budget."
+  },
+  {
+    "objectID": "index.html#enter-your-information",
+    "href": "index.html#enter-your-information",
+    "title": "Affordability calculator",
+    "section": "",
+    "text": "Salary per year ($)\n\nCity\n Pittsburgh, PA Chicago, IL New York, NY Dallas, \n\nMonthly student loan ($)\n\nOther monthly spending ($)\n\n\n\nCalculate"
+  },
+  {
+    "objectID": "index.html#what-these-results-mean",
+    "href": "index.html#what-these-results-mean",
+    "title": "Affordability calculator",
+    "section": "",
+    "text": "If your remaining money is high, your lifestyle is affordable in that city.\nIf the number is close to zero or negative, you may need to reduce expenses, increase income, or consider a cheaper city.\nThis tool is a simplified estimate. Real budgets may include taxes, insurance, transportation, and other living costs."
+  },
+  {
+    "objectID": "calculator.html",
+    "href": "calculator.html",
+    "title": "Explore your budget",
+    "section": "",
+    "text": "Salary per year ($)\n\nCity\n Pittsburgh, PA Chicago, IL New York, NY Dallas, TX\n\nMonthly student loan ($)\n\nOther monthly spending ($)\n\n\n\nCalculate"
+  },
+  {
+    "objectID": "calculator.html#enter-your-information",
+    "href": "calculator.html#enter-your-information",
+    "title": "Explore your budget",
+    "section": "",
+    "text": "Salary per year ($)\n\nCity\n Pittsburgh, PA Chicago, IL New York, NY Dallas, TX\n\nMonthly student loan ($)\n\nOther monthly spending ($)\n\n\n\nCalculate"
+  },
+  {
+    "objectID": "calculator.html#results",
+    "href": "calculator.html#results",
+    "title": "Explore your budget",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "about.html#enter-your-information",
+    "href": "about.html#enter-your-information",
+    "title": "Affordability calculator",
+    "section": "",
+    "text": "Salary per year ($)\n\nCity\n Pittsburgh, PA Chicago, IL New York, NY Dallas, \n\nMonthly student loan ($)\n\nOther monthly spending ($)\n\n\n\nCalculate"
+  },
+  {
+    "objectID": "about.html#what-these-results-mean",
+    "href": "about.html#what-these-results-mean",
+    "title": "Affordability calculator",
+    "section": "",
+    "text": "If your remaining money is high, your lifestyle is affordable in that city.\nIf the number is close to zero or negative, you may need to reduce expenses, increase income, or consider a cheaper city.\nThis tool is a simplified estimate. Real budgets may include taxes, insurance, transportation, and other living costs."
+  }
+]
