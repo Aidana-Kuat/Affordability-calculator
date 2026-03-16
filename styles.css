@@ -1,0 +1,26 @@
+/* css styles */
+body {
+  font-family: Copperplate, sans-serif;
+}
+
+h1 {
+  color: #1e1717;
+}
+
+button {
+  background-color: #7b0202;
+  color: rgb(254, 253, 253);
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
